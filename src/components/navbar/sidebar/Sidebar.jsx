@@ -10,8 +10,11 @@ function Sidebar() {
     const variants ={
         open: {
             clipPath: "circle(1200px at 50px 50px)",
-            type: "spring",
-            stiffness: 20,
+            transition: {
+                type:"spring",
+                stiffness: 20,
+                
+            }
         },
         closed: {
             clipPath: "circle(30px at 50px 50px)",
