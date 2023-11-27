@@ -24,6 +24,14 @@ const textVariants = {
   }
 };
 
+const handleClick = () => {
+  window.location.href = "https://github.com/Hirankavindu";
+}
+const handleClick1 = () => {
+  window.location.href =
+    "https://drive.google.com/drive/folders/1v46kg8XYafUVvT1zGmFi1ET42LwQEbwg?usp=share_link";
+};
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -53,10 +61,12 @@ function Hero() {
             Developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
+            <motion.button variants={textVariants} onClick={handleClick}>
+              My GitHub Account
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} onClick={handleClick1}>
+              Download CV
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -66,7 +76,12 @@ function Hero() {
           />
         </motion.div>
       </div>
-      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+      <motion.div
+        className="slidingTextContainer"
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate"
+      >
         Web and Mobile App Developer
       </motion.div>
       <div className="imageContainer">

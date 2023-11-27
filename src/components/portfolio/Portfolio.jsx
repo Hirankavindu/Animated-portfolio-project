@@ -5,27 +5,27 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "/public/pr1.png",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    title: "Movie Application",
+    img: "/public/project1.png",
+    desc: "I have developed a mobile application using react native and using TMDB. By using this app we can see the details of the trending movies, Top rated Movies, Acters names and details. This is a cross Platform application. ",
   },
   {
     id: 2,
-    title: "Next.js Commerce",
-    img: "/public//pr2.jpeg",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    title: "NAPOT Application",
+    img: "/public/project3.png",
+    desc: "I have developed a mobile application called NAPOT for NSBM Green University. I have developed this application using Flutter and Firebase. By using this app NSBM students, Lecturers, Librarian, Canteen Admin, Interviewer can do their day to day works easily.",
   },
   {
     id: 3,
-    title: "React Native Commerce",
-    img: "https://img.freepik.com/free-vector/hand-drawn-dia-de-muertos-background_52683-46544.jpg?w=2000&t=st=1698783905~exp=1698784505~hmac=7d37fc1e575e87e24eeb7194453722587cfcfc538ba22bed64279cfa43ad2a07",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    title: "Intergalactic Application",
+    img: "/public/project2.png",
+    desc: "We have develop this application Using Next.Js and MongoDB We develop this application for Tech-Triathlon Competition that Organized by RootCode. This application designs as a featuristic design. WE have got the Second Runner Up place in this competition.",
   },
   {
     id: 4,
-    title: "Flutter Commerce",
-    img: "/public/pr4.jpeg",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    title: "KentoVet Application",
+    img: "/public/project4.png",
+    desc: "I have develop this application using C#, Guna Frame Work and PL SQL. We develop this application for KentoVet Pharmaceutical pvt.LTD for manage their stocks. By using this application they can prediction about future sales and get a clear idea about the stocks.",
   },
 ];
 

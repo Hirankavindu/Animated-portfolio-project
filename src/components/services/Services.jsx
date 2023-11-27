@@ -61,11 +61,9 @@ function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Mobile Application<br/>Development</h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            Develop Mobile application using Cross-Platform Technologies Like Flutter React Native
           </p>
           <button>Go</button>
         </motion.div>
@@ -74,11 +72,9 @@ function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>WebSite Development</h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            Develop modern design websites using trending languages with responsive design
           </p>
           <button>Go</button>
         </motion.div>
@@ -87,11 +83,9 @@ function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>UI/UX Designing</h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            Create UI/Ux Designs for mobile applications and websites and desktop applications
           </p>
           <button>Go</button>
         </motion.div>
@@ -100,11 +94,9 @@ function Services() {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>POS Systems Development</h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            Develop POS systems for businesses using Java and C# with modern designs
           </p>
           <button>Go</button>
         </motion.div>

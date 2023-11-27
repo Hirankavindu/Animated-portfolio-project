@@ -43,7 +43,9 @@
             }
 
             .buttons{
+                z-index: 99;
                 button{
+                    
                     padding: 20px;
                     border: 1px solid white;
                     border-radius: 10px;
@@ -88,6 +90,7 @@
 
 
     .slidingTextContainer{
+        z-index: 0;
         position: absolute;
         font-size: 50vh;
         bottom: -120px;
